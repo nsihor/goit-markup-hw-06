@@ -218,7 +218,8 @@ body {
   width: 208px;
   margin-right: 80px;
 }
-.footer_social_text, .footer_form_text {
+.footer_social_text,
+.footer_form_text {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -283,17 +284,17 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  color: #FFFFFF;
+  color: #ffffff;
   cursor: pointer;
 
   transition: background 250ms var(--time_distribution);
 }
-.footer_btn:is(:hover, :focus){
+.footer_btn:is(:hover, :focus) {
   background: var(--pressed_state);
 }
 .footer_btn::after {
   display: block;
-  content: '';
+  content: "";
   width: 24px;
   height: 20px;
   background-image: url(../images/icons/send.svg);
@@ -362,9 +363,10 @@ body {
   height: 100%;
   background-color: rgba(46, 47, 66, 0.4);
   opacity: 1;
-  transition: opacity 250ms var(--time_distribution), visibility 250ms var(--time_distribution);
+  transition: opacity 250ms var(--time_distribution),
+    visibility 250ms var(--time_distribution);
 }
-.backdrop.is-hidden { 
+.backdrop.is-hidden {
   visibility: hidden;
   opacity: 0;
   pointer-events: none;
@@ -389,7 +391,8 @@ body {
   opacity: 1;
 
   transform: scale(1) translate(-50%, -50%);
-  transition: transform 250ms var(--time_distribution), opacity 250ms var(--time_distribution);
+  transition: transform 250ms var(--time_distribution),
+    opacity 250ms var(--time_distribution);
 }
 .modal_close_btn {
   display: flex;
@@ -402,7 +405,8 @@ body {
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 50%;
   cursor: pointer;
-  transition: background-color 250ms var(--time_distribution), border-color 250ms var(--time_distribution);
+  transition: background-color 250ms var(--time_distribution),
+    border-color 250ms var(--time_distribution);
 }
 .modal_close_btn:is(:hover, :focus) {
   background-color: var(--pressed_state);
@@ -414,7 +418,7 @@ body {
   height: 8px;
   transition: fill 250ms var(--time_distribution);
 }
-.modal_close_btn:is(:hover, :focus) .close_icon{
+.modal_close_btn:is(:hover, :focus) .close_icon {
   fill: #ffffff;
 }
 /* Feauters */
@@ -607,9 +611,10 @@ body {
   height: 100%;
   background-color: rgba(46, 47, 66, 0.4);
   opacity: 1;
-  transition: opacity 250ms var(--time_distribution), visibility 250ms var(--time_distribution);
+  transition: opacity 250ms var(--time_distribution),
+    visibility 250ms var(--time_distribution);
 }
-.backdrop.is-hidden { 
+.backdrop.is-hidden {
   visibility: hidden;
   opacity: 0;
   pointer-events: none;
@@ -634,7 +639,8 @@ body {
   opacity: 1;
 
   transform: scale(1) translate(-50%, -50%);
-  transition: transform 250ms var(--time_distribution), opacity 250ms var(--time_distribution);
+  transition: transform 250ms var(--time_distribution),
+    opacity 250ms var(--time_distribution);
 }
 .modal_close_btn {
   display: flex;
@@ -647,7 +653,8 @@ body {
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 50%;
   cursor: pointer;
-  transition: background-color 250ms var(--time_distribution), border-color 250ms var(--time_distribution);
+  transition: background-color 250ms var(--time_distribution),
+    border-color 250ms var(--time_distribution);
 }
 .modal_close_btn:is(:hover, :focus) {
   background-color: var(--pressed_state);
@@ -659,7 +666,7 @@ body {
   height: 8px;
   transition: fill 250ms var(--time_distribution);
 }
-.modal_close_btn:is(:hover, :focus) .close_icon{
+.modal_close_btn:is(:hover, :focus) .close_icon {
   fill: #ffffff;
 }
 .modal_title {
@@ -684,9 +691,9 @@ body {
   font-size: 12px;
   line-height: 1.33;
   letter-spacing: 0.04em;
-  color: #8E8F99;
+  color: #8e8f99;
 }
-.modal_input_box{
+.modal_input_box {
   position: relative;
 }
 .modal_input {
@@ -697,18 +704,18 @@ body {
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
 }
-.modal_icon{
+.modal_icon {
   position: absolute;
   left: 16px;
   top: 50%;
   transform: translateY(-50%);
   fill: currentColor;
-  }
+}
 .modal_input:focus {
   border: 1px solid var(--primary_brand);
   outline: none;
 }
-.modal_input:focus + .modal_icon{
+.modal_input:focus + .modal_icon {
   color: var(--primary_brand);
 }
 .modal_l_ta {
@@ -732,7 +739,7 @@ body {
   padding-left: 24px;
 
   font-size: 12px;
-  line-height: 1.33;  
+  line-height: 1.33;
   letter-spacing: 0.04em;
   color: #757575;
 }
@@ -741,7 +748,7 @@ body {
   left: 0;
   width: 16px;
   height: 16px;
-  border: 1.25px solid #2E2F42;
+  border: 1.25px solid #2e2f42;
   border-radius: 2px;
 }
 .modal_cb:focus + .modal_check {
@@ -761,19 +768,19 @@ body {
   width: 169px;
   height: 56px;
   margin: 24px auto 0 auto;
-  background: #4D5AE5;
+  background: #4d5ae5;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   border-color: transparent;
   cursor: pointer;
 
   font-weight: 500;
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.04em;
-color: #FFFFFF;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #ffffff;
 
-transition: background-color 250ms var(--time_distribution);
+  transition: background-color 250ms var(--time_distribution);
 }
 .modal_submit:is(:hover, :focus) {
   background-color: var(--pressed_state);
