@@ -276,6 +276,9 @@ body {
   gap: 16px;
   padding: 8px 24px;
 
+  min-width: 165px;
+  height: 40px;
+
   background: var(--primary_brand);
   border-color: transparent;
   border-radius: 4px;
@@ -676,16 +679,17 @@ body {
   text-align: center;
   letter-spacing: 0.02em;
   color: var(--dark);
-  margin-top: 24px;
   margin-bottom: 16px;
 }
 .modal_form {
   display: flex;
   flex-direction: column;
   color: var(--dark);
+  padding-top: 24px;
 }
 .modal_label {
   display: block;
+  margin-bottom: 4px;
   font-size: 12px;
   line-height: 1.33;
   letter-spacing: 0.04em;
@@ -693,13 +697,12 @@ body {
 }
 .modal_input_box {
   position: relative;
+  margin-bottom: 8px;
 }
 .modal_input {
   width: 100%;
   height: 40px;
   padding-left: 38px;
-  margin-top: 4px;
-  margin-bottom: 8px;
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
 }
@@ -721,7 +724,6 @@ body {
   width: 100%;
   min-height: 120px;
   margin-bottom: 16px; 
-  margin-top: 4px;
   padding: 8px 16px;
   resize: none;
   border: 1px solid rgba(33, 33, 33, 0.2);
